@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+    android:weightSum="1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.60"
+        android:hint="Result"
+        android:gravity="right"
+        android:textStyle="bold|italic"
+        tools:textSize="48sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="1"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="2"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="3"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="+"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="4"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="5"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="6"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMines"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="-"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="7"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="8"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="9"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btndivide"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="*"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="0"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btndot"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="."
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnEqual"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="="
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnmultiply"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/colorAccent"
+            android:text="/"
+            android:textStyle="bold|italic"
+            tools:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
