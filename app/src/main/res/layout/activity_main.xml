@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginLeft="16dp"
     android:weightSum="1"
     tools:context=".MainActivity">
 
@@ -13,189 +12,195 @@
         android:id="@+id/Answer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.60"
-        android:hint="Result"
+        android:layout_weight="0.90"
+        android:layout_marginTop="40dp"
         android:gravity="right"
+        android:hint="Result"
         android:textStyle="bold|italic"
-        tools:textSize="48sp" />
+        tools:textSize="48dp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/btn4"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="4"
-            android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btn5"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="5"
-            android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btn6"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="6"
-            android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
-
-        <Button
-            android:id="@+id/btnMines"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="-"
-            android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
+        android:background="#ffad28"
         android:layout_height="wrap_content">
 
         <Button
             android:id="@+id/btn7"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="7"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
 
         <Button
             android:id="@+id/btn8"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="8"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
 
         <Button
             android:id="@+id/btn9"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="9"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
 
         <Button
             android:id="@+id/btnAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="+"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#ffad28">
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="4"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            tools:textSize="35sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="5"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            tools:textSize="35sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="6"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            tools:textSize="35sp" />
+
+        <Button
+            android:id="@+id/btnMines"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="-"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            tools:textSize="35sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffad28">
 
         <Button
             android:id="@+id/btn1"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="1"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
 
         <Button
             android:id="@+id/btn2"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="2"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
 
         <Button
             android:id="@+id/btn3"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="3"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
 
         <Button
             android:id="@+id/btndivide"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="100dp"
             android:background="@color/colorPrimaryDark"
             android:text="*"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35sp" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <Button
-            android:id="@+id/btn0"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="0"
-            android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+        android:layout_height="wrap_content"
+        android:background="#ffad28">
 
         <Button
             android:id="@+id/btndot"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
             android:background="@color/colorPrimaryDark"
             android:text="."
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35dp" />
+
+        <Button
+            android:id="@+id/btn0"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="0"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="normal"
+            tools:textSize="35sp" />
 
         <Button
             android:id="@+id/btnEqual"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
             android:background="@color/colorPrimaryDark"
             android:text="="
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35dp" />
 
         <Button
             android:id="@+id/btnmultiply"
-            android:layout_width="wrap_content"
-            android:layout_height="70dp"
+            android:layout_width="95dp"
+            android:layout_height="110dp"
             android:background="@color/colorPrimaryDark"
             android:text="/"
             android:textColor="@color/colorPrimary"
-            android:textStyle="bold|italic"
-            tools:textSize="20sp" />
+            android:textStyle="normal"
+            tools:textSize="35dp" />
     </LinearLayout>
 
 </LinearLayout>

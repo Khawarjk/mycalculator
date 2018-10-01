@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if(mul==true);
                 {
-                    Answer.setText(var1+var2+"");
+                    Answer.setText(var1*var2+"");
                     mul=false;
                 }
                 if(div==true);
